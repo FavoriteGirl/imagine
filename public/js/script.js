@@ -67,3 +67,30 @@ const bottle1 = {
   for (let i = 0; i <=5; i++) {
     console.log('We did it!');
   }
+
+   // Functions
+// Defining a function
+function login(username, password) {
+  // validate username and password
+  if (!username || !password) {
+    return 'Username or password not provided';
+  }
+  // verify username and password
+  if (username == 'mickeymond' && password =='1234') {
+    return 'User is logged in';
+  } else {
+    return 'Invalid username or password';
+  }    
+}
+// Invoking a function
+login('mickeymond');
+
+
+
+//Basic Arithmetic Operations
+11+12;
+1+45;
+2+2+42-12;
+45/3;
+54*2;
+14 % 3;
