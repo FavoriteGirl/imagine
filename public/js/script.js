@@ -97,26 +97,43 @@ console.log(person.child.friend.school)
 // 54 * 2;
 // 14 % 3;
 
-// Write a function that will add a participant to our Google Classroom
-// let email = prompt ('Enter email')
-// let passcode = prompt ('Enter passcode')
+//Converting strings to numbers
+Number ('2') + Number ('2') * Number ('6')
 
 
-const participants =[];
-function addParticipant(email) {
-  // Check if email was provided
-  if (email === undefined || email === null) {
-	return 'No email Provided'
-  }
-  // Add email to participants
-  participants.push(email);
-  return 'Participant added';
-}
-
-addParticipant('mickeymond@yahoo.com');
-addParticipant('mickeymoused@yahoo.com');
-addParticipant();
-participants;
+// Strings in JavaScript
+// Concatenation
+const firstname = 'Felix';
+const lastname = 'Kojo';
+const middlename = '';
 
 
+firstname + ' ' + lastname;
+
+
+// Template literal
+`${firstname} ${middlename} ${lastname}`;
+
+
+//String Methods
+
+
+let fullName = 'Felix Kojo'
+fullName.length
+fullName. toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(3)
+fullName.slice(0,5)
+fullName.split("")
+fullName.replace("Kojo", "Cefa")
+fullName.indexOf("Kojo")
+
+
+//string conversion
+Number("3.243")
+parseInt("3.243")
+parseFloat("3.243")
+let amount = 18000
+console.log(`GHS$(amount)`)
+amount.toString()
 
